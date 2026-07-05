@@ -1,11 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RoadGuardian-AI
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
-https://ai.studio/apps/c203f0f1-e6b3-4826-918f-287a611371a3
+**RoadGuardian-AI** is an advanced, AI-powered road safety and driver monitoring web application designed to enhance vehicle safety and improve driving habits. It acts as a comprehensive co-pilot, integrating real-time telemetry and artificial intelligence concepts to ensure a safer driving experience.
+
+### Key Features
+- **Advanced Driver Assistance Systems (ADAS):** Real-time monitoring for drowsiness, lane departure, traffic sign recognition, and collision warnings.
+- **Risk & Habit Analysis:** Continuous evaluation of driving behavior, providing a dynamic driving score based on speed, braking habits, and hazard responses.
+- **Road Hazard Detection:** Immediate alerts for critical road conditions like wrong-way vehicles, potholes, and waterlogging.
+- **Civic & Community Reporting:** Hands-free voice commands to report road issues directly to civic authorities, paired with emergency SOS broadcast capabilities.
+- **Maintenance Tracking:** Predictive health monitoring for vehicle components to prevent unexpected breakdowns.
+
+Whether you're a daily commuter, a fleet manager, or a civic authority, RoadGuardian-AI bridges the gap between vehicle diagnostics, driver behavior, and road infrastructure health.
 
 ## Run Locally
 
@@ -14,6 +20,5 @@ https://ai.studio/apps/c203f0f1-e6b3-4826-918f-287a611371a3
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
